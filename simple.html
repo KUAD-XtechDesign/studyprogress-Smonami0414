@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head><!DOCTYPE html><html><head><meta charset="utf-8"/>
+  <title>websarasa.js</title>
+  <script src="https://taisukef.github.io/websarasa/websarasa.js"></script>
+  <script>"use strict";
+  var main = function(scr) {
+  	scr.loop = function(g, ts, dt, vw) {
+  		// 背景
+  		g.setColor(0, 50, 50);
+  		g.fillRect(20, 10, 500, 1000);
+
+
+  		// 青い動く丸
+  		var x = 500 + 80 + Math.sin(ts / 200) * 80;
+  		var y = 500 - 50;
+  		g.setColor(0, 100, 100);
+  		g.fillCircle(x, y, 50);
+
+
+
+   };
+  };
+  </script>
+  </head><html>v
+
+  <body>
+
+  </body>
+</html>
